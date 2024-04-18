@@ -124,7 +124,7 @@ def clear_attendance():
 #### Main page
 def home():
     names, rolls, times, emotions, l = extract_attendance()
-    st.title("Attendance System")
+    st.title("Smart Attendance Management System")
     st.write(f"Date: {datetoday2}")
     st.write(f"Total Registered Users: {total_reg()}")
 
