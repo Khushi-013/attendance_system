@@ -124,8 +124,7 @@ def clear_attendance():
 #### Main page
 def home():
     names, rolls, times, emotions, l = extract_attendance()
-    st.title("SMART ATTENDANCE AND EMOTION TRACKING SYSTEM USING FACIAL RECOGNITION TECHNOLOGY")
-    st.image('https://emerj.com/wp-content/uploads/2018/04/facial-recognition-applications-security-retail-and-beyond.jpg', use_column_width=True)
+    st.title("Attendance System")
     st.write(f"Date: {datetoday2}")
     st.write(f"Total Registered Users: {total_reg()}")
 
